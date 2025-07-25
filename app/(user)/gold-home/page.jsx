@@ -45,7 +45,7 @@ export default function GoldHomePage() {
 
         <div className="empty-container">
           <EmptyPageLogo />
-          <h2>Seni beğenen kişileri görmek için Gold'a yükselt</h2>
+          <h2>Seni beğenen kişileri görmek için Gold&apos;a yükselt</h2>
         </div>
 
         <button className="gold-button" onClick={() => setActivePanel(true)}>
@@ -200,7 +200,7 @@ export default function GoldHomePage() {
 
               <div className="modal-footer">
                 <p>
-                  Devam'a dokunursan ödemen tahsil edilir ve sen Hesap
+                  Devam&apos;a dokunursan ödemen tahsil edilir ve sen Hesap
                   Ayarlarından iptal etmediğin sürece, aboneliğin aynı fiyata
                   aynı paket uzunluğunda yenilenir ve{" "}
                   <span>Koşullarımızı </span>

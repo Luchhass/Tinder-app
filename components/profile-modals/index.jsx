@@ -109,7 +109,7 @@ export default function ProfileModals({ data, activePanel, setActivePanel }) {
                 <h3>Accessibility</h3>
 
                 <button>Keyboard shortcuts</button>
-                <button>Tinder'ı Paylaş</button>
+                <button>Tinder&apos;ı Paylaş</button>
                 <button onClick={() => setLogOut(true)}>Çıkış</button>
 
                 <div className="version">

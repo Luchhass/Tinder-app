@@ -94,9 +94,9 @@ export default function LoginComponent() {
 
                   <p>
                     Oturum Aç veya Devam Et seçeneğine dokunarak,{" "}
-                    <span>Koşullar</span>'nı kabul ediyorsun. Verilierini nasıl
+                    <span>Koşullar</span>&apos;nı kabul ediyorsun. Verilierini nasıl
                     işlediğimizi öğrenmek için <span>Gizlilik Politikası</span>
-                    ve <span>Çerez Politikası</span>'nı inceleyebilirsin.
+                    ve <span>Çerez Politikası</span>&apos;nı inceleyebilirsin.
                   </p>
                 </>
               ) : (
@@ -193,9 +193,9 @@ export default function LoginComponent() {
 
                   <p>
                     Oturum Aç veya Devam Et seçeneğine dokunarak,{" "}
-                    <span>Koşullar</span>'nı kabul ediyorsun. Verilierini nasıl
+                    <span>Koşullar</span>&apos;nı kabul ediyorsun. Verilierini nasıl
                     işlediğimizi öğrenmek için <span>Gizlilik Politikası</span>
-                    ve <span>Çerez Politikası</span>'nı inceleyebilirsin.
+                    ve <span>Çerez Politikası</span>&apos;nı inceleyebilirsin.
                   </p>
                 </>
               ) : (
@@ -240,7 +240,7 @@ export default function LoginComponent() {
           <p>
             Memleketimde kendimi yalnız hissediyordum çünkü ben yurt dışındayken
             arkadaşlarımın çoğu romantik ilişkilere başlamıştı. İkimiz de
-            Tinder'ı indirip neler olacağını görmeye karar verdik.
+            Tinder&apos;ı indirip neler olacağını görmeye karar verdik.
           </p>
 
           <p>
@@ -305,7 +305,7 @@ export default function LoginComponent() {
           <p>
             Sevgili bekârlar, bize kulak verin: Eğer aşkı arıyorsanız, flört
             etmek istiyorsanız veya plansız ilişkiler peşindeyseniz, mutlaka
-            Tinder'da olmalısınız. Bugüne kadar 55 milyardan fazla eşleşme
+            Tinder&apos;da olmalısınız. Bugüne kadar 55 milyardan fazla eşleşme
             sağlayan uygulamamız, kendine en uygun eşleşmeyi bulmak için en
             doğru yer. Gerçekçi olalım; flörtleşme dünyası son günlerde çok
             değişti zira artık çoğu insan online platformlarda birbiriyle
@@ -317,7 +317,7 @@ export default function LoginComponent() {
           </p>{" "}
           <br />
           <p>
-            Tinder'da herkes için bir şey var. Bir ilişki mi istiyorsunuz?
+            Tinder&apos;da herkes için bir şey var. Bir ilişki mi istiyorsunuz?
             Burada bulabilirsiniz. Yeni arkadaşlar bulmaya mı çalışıyorsunuz?
             Doğru adres burası. Kampüse girdiği andan itibaren üniversite
             deneyiminin keyfini çıkarmak isteyen bir öğrenci misiniz? Tinder U

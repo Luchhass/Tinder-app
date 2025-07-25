@@ -165,7 +165,7 @@ export default function MainPageModals({ data, activePanel, setActivePanel }) {
 
               <div className="modal-footer">
                 <p>
-                  Devam'a dokunursan ödemen tahsil edilir ve sen Hesap
+                  Devam&apos;a dokunursan ödemen tahsil edilir ve sen Hesap
                   Ayarlarından iptal etmediğin sürece, aboneliğin aynı fiyata
                   aynı paket uzunluğunda yenilenir ve{" "}
                   <span>Koşullarımızı </span>
@@ -326,7 +326,7 @@ export default function MainPageModals({ data, activePanel, setActivePanel }) {
 
               <div className="modal-footer">
                 <p>
-                  Devam'a dokunursan ödemen tahsil edilir ve sen Hesap
+                  Devam&apos;a dokunursan ödemen tahsil edilir ve sen Hesap
                   Ayarlarından iptal etmediğin sürece, aboneliğin aynı fiyata
                   aynı paket uzunluğunda yenilenir ve{" "}
                   <span>Koşullarımızı </span>
@@ -464,7 +464,7 @@ export default function MainPageModals({ data, activePanel, setActivePanel }) {
 
               <div className="modal-footer">
                 <p>
-                  Devam'a dokunursan ödemen tahsil edilir ve sen Hesap
+                  Devam&apos;a dokunursan ödemen tahsil edilir ve sen Hesap
                   Ayarlarından iptal etmediğin sürece, aboneliğin aynı fiyata
                   aynı paket uzunluğunda yenilenir ve{" "}
                   <span>Koşullarımızı </span>
