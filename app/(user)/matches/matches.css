@@ -1,0 +1,58 @@
+.matches {
+  .new-matches {
+    h2 {
+      color: #f0f2f4;
+      font-size: 17px;
+      line-height: 22px;
+      vertical-align: baseline;
+      letter-spacing: 0.1px;
+      font-weight: 700;
+      padding: 12px 8px;
+    }
+
+    margin-bottom: 56px;
+  }
+
+  .messages {
+    h2 {
+      color: #f0f2f4;
+      font-size: 17px;
+      line-height: 22px;
+      vertical-align: baseline;
+      letter-spacing: 0.1px;
+      font-weight: 700;
+      padding: 12px 8px;
+    }
+
+    .empty-messages {
+      width: 240px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      .empty-image {
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        color: #f0f2f4;
+        font-size: 26px;
+        line-height: 34.125px;
+        vertical-align: baseline;
+        word-spacing: 0px;
+        font-weight: 600;
+        margin-bottom: 0.25em;
+      }
+
+      p {
+        color: #b9bfc8;
+        font-size: 16px;
+        line-height: 21px;
+        vertical-align: baseline;
+        font-weight: 400;
+      }
+    }
+  }
+}

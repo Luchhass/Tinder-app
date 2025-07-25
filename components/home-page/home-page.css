@@ -1,0 +1,131 @@
+.card {
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 12px;
+
+  .card-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-content {
+    position: relative;
+    z-index: 1;
+    box-shadow: inset 0px -50px 25px -13px rgba(0, 0, 0, 1);
+    padding: 0 20px;
+
+    h2 {
+      color: #ffffff;
+      font-size: 34px;
+      line-height: 42px;
+      vertical-align: baseline;
+      letter-spacing: 0.1px;
+      word-spacing: 0px;
+      font-weight: 700;
+
+      span {
+        font-size: 28px;
+        line-height: 36px;
+        vertical-align: baseline;
+        letter-spacing: normal;
+        word-spacing: 0px;
+        font-weight: 400;
+      }
+    }
+
+    p {
+      color: #ffffff;
+      font-size: 17px;
+      line-height: 24px;
+      vertical-align: baseline;
+      letter-spacing: normal;
+      word-spacing: 0px;
+      font-weight: 400;
+    }
+  }
+}
+
+.card-button-div {
+  background-color: #000000;
+
+  .card-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 32px 0px;
+    background: linear-gradient(0deg, #111418, #181e23);
+    height: 14px;
+    margin-inline: 12px;
+    border-radius: 0 0 12px 12px;
+
+    button {
+      padding: 12px;
+      background-color: #21262e;
+      border-radius: 50%;
+      border: none;
+      transition: transform 0.3s ease;
+
+      &:nth-child(2),
+      &:nth-child(4) {
+        padding: 20px;
+      }
+
+      &:hover {
+        transform: scale(1.15);
+      }
+
+      &:nth-child(1):active {
+        background: linear-gradient(to top right, #f8a81f, #ffdd6b);
+        transform: scale(0.9);
+
+        path {
+          fill: #111418;
+        }
+      }
+
+      &:nth-child(2):active {
+        background: linear-gradient(to top right, #fd267a, #ff6036);
+        transform: scale(0.9);
+
+        path {
+          fill: #111418;
+        }
+      }
+
+      &:nth-child(3):active {
+        background: linear-gradient(to top right, #47a1ff, #30f3ef);
+        transform: scale(0.9);
+
+        path {
+          fill: #111418;
+        }
+      }
+
+      &:nth-child(4):active {
+        background: linear-gradient(to top right, #03aa65, #f1f505);
+        transform: scale(0.9);
+
+        path {
+          fill: #111418;
+        }
+      }
+
+      &:nth-child(5):active {
+        background: linear-gradient(to top right, #a11aeb, #cc7afb);
+        transform: scale(0.9);
+
+        path {
+          fill: #111418;
+        }
+      }
+    }
+  }
+}

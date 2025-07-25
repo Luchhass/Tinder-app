@@ -1,0 +1,19 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+
+  a {
+    fill: #656e7b;
+    background-color: transparent;
+    border: none;
+    padding: 9px;
+  }
+
+  .selected-nav {
+    fill: #ff4458;
+  }
+}
+
+.black-nav {
+  background-color: #000000;
+}

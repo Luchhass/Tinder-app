@@ -1,0 +1,91 @@
+.profile {
+  background-color: #000000;
+  flex-grow: 1;
+
+  .profile-detail {
+    .about {
+      padding-top: 8vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+      background-color: #111418;
+
+      img {
+        border-radius: 50%;
+      }
+
+      h1 {
+        color: #f0f2f4;
+        font-size: 28px;
+        line-height: 36px;
+        vertical-align: baseline;
+        letter-spacing: normal;
+        word-spacing: 0px;
+        font-weight: 400;
+      }
+    }
+
+    .profile-buttons {
+      background-color: #111418;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 8px 4px 6vh 4px;
+      border-radius: 0% 0% 150% 150% / 0% 0% 70% 70%;
+      overflow: hidden;
+
+      button {
+        width: 130px;
+        color: #f0f2f4;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        line-height: 20px;
+        vertical-align: baseline;
+        letter-spacing: 0.1px;
+        word-spacing: 0px;
+        font-weight: 700;
+        cursor: pointer;
+        flex-grow: 1;
+        margin-bottom: 40px;
+
+        .svg-div {
+          padding: 13.5px;
+          border-radius: 50%;
+          border: 1px solid #797d83;
+          margin-bottom: 8px;
+        }
+
+        svg {
+          fill: #f0f2f4;
+        }
+
+        &:nth-child(2) {
+          margin-bottom: 0px;
+          margin-top: 10px;
+
+          .svg-div {
+            padding: 15px;
+          }
+        }
+
+        &:nth-child(3) {
+          .svg-div {
+            background: linear-gradient(to top right, #fd267a, #ff6036);
+            border: none;
+          }
+
+          svg {
+            fill: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
